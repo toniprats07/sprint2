@@ -11678,6 +11678,14 @@ textarea.form-control-lg {
   left: 56%;
 }
 
+.contenedor-2 {
+  height: 200px;
+  width: 210px;
+  position: absolute;
+  top: 170%;
+  left: 0;
+}
+
 .texto-centrado {
   text-align: center;
 }
@@ -11696,6 +11704,11 @@ textarea.form-control-lg {
   border-bottom-left-radius: 100px;
 }
 
+.borde-redondo-derecha {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
 /* TABLET O MOVIL HORIZONTAL*/
 @media (min-width: 768px) {
   .contenedor {
@@ -11704,6 +11717,13 @@ textarea.form-control-lg {
     position: absolute;
     top: 40%;
     left: 30%;
+  }
+  .contenedor-2 {
+    height: 300px;
+    width: 540px;
+    position: absolute;
+    top: 188%;
+    left: 0;
   }
   .boton-centrado {
     display: flex;
@@ -11723,6 +11743,13 @@ textarea.form-control-lg {
     position: absolute;
     top: 35%;
     left: 65%;
+  }
+  .contenedor-2 {
+    height: 300px;
+    width: 505px;
+    position: absolute;
+    top: 142%;
+    left: 0;
   }
   .boton-centrado {
     display: flex;
