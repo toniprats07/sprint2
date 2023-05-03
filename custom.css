@@ -11741,6 +11741,10 @@ textarea.form-control-lg {
     margin-top: 80px;
   }
 }
+.accordion-button.collapsed::after {
+  background-image: url(../nivell-1/images/icon-arrow.svg);
+}
+
 /* ORDENADOR O TABLET HORIZONTAL */
 @media (min-width: 1024px) {
   .contenedor {
